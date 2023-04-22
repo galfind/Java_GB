@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-22T22:51:08.003053100Z</date>
+  <millis>1682203868003</millis>
+  <nanos>53100</nanos>
+  <sequence>0</sequence>
+  <level>INFO</level>
+  <class>homework.secondhw.ex1</class>
+  <method>makeMeString</method>
+  <thread>1</thread>
+  <message>Строка скопирована из файла</message>
+</record>
+<record>
+  <date>2023-04-22T22:51:08.026224300Z</date>
+  <millis>1682203868026</millis>
+  <nanos>224300</nanos>
+  <sequence>1</sequence>
+  <level>INFO</level>
+  <class>homework.secondhw.ex1</class>
+  <method>makeMeString</method>
+  <thread>1</thread>
+  <message>[{ "фамилия":"Иванов","оценка":"5","предмет":"Математика"},{"фамилия":"Петрова","оценка":"4","предмет":"Информатика"},{"фамилия":"Краснов","оценка":"5","предмет":"Физика"}][{ "фамилия":"Викторов","оценка":"4","предмет":"Математика"},{"фамилия":"Петрова","оценка":"4","предмет":"Информатика"},{"фамилия":"Краснов","оценка":"5","предмет":"Физика"}]</message>
+</record>
+<record>
+  <date>2023-04-22T22:51:08.027223Z</date>
+  <millis>1682203868027</millis>
+  <nanos>223000</nanos>
+  <sequence>2</sequence>
+  <level>INFO</level>
+  <class>homework.secondhw.ex1</class>
+  <method>parseLine</method>
+  <thread>1</thread>
+  <message>Сформирован вывод</message>
+</record>
+<record>
+  <date>2023-04-22T22:51:08.027223Z</date>
+  <millis>1682203868027</millis>
+  <nanos>223000</nanos>
+  <sequence>3</sequence>
+  <level>INFO</level>
+  <class>homework.secondhw.ex1</class>
+  <method>parseLine</method>
+  <thread>1</thread>
+  <message>Студент Иванов получил 5 по предмету Математика.
+Студент Петрова получил 4 по предмету Информатика.
+Студент Краснов получил 5 по предмету Физика.
+Студент Викторов получил 4 по предмету Математика.
+Студент Петрова получил 4 по предмету Информатика.
+Студент Краснов получил 5 по предмету Физика.
+</message>
+</record>
+<record>
+  <date>2023-04-22T22:51:08.037947800Z</date>
+  <millis>1682203868037</millis>
+  <nanos>947800</nanos>
+  <sequence>4</sequence>
+  <level>INFO</level>
+  <class>homework.secondhw.ex1</class>
+  <method>SaveToFile</method>
+  <thread>1</thread>
+  <message>Файл сохранен</message>
+</record>
+</log>
