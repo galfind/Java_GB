@@ -8,12 +8,12 @@ public class ex3 {
         LinkedList<Integer> list = new LinkedList<>();
         getRandom(list,6);
         System.out.println(list);
-        System.out.println(summ(list));
+        System.out.println(sum(list));
     }
-    public static int summ(LinkedList<Integer> l){
+    public static int sum(LinkedList<Integer> l){
         int res = 0;
-        for (int i = 0; i < l.size(); i++) {
-            res += l.get(i);
+        for (Integer integer : l) {
+            res += integer;
         }
         return res;
     }
