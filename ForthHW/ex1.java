@@ -1,8 +1,6 @@
 package homework.ForthHW;
 
-import java.util.LinkedList;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class ex1 {
     public static void main(String[] args) {
@@ -12,8 +10,8 @@ public class ex1 {
         LinkedList<Integer> list = new LinkedList<>();
         getRandom(list,num);
         System.out.println(list);
-        rotate(list);
-        System.out.println(list);
+        LinkedList<Integer> list1 = gigaRotate(list);
+        System.out.println(list1);
     }
     public static void getRandom(LinkedList<Integer> l, int n){
         Random rnd = new Random();
@@ -21,11 +19,12 @@ public class ex1 {
             l.add(rnd.nextInt(1,20));
         }
     }
-    public static void rotate(LinkedList<Integer> l){
-        int c = l.size();
-        for (int i = 0; i < c; i++) {
-            l.add(i, l.getLast());
-            l.removeLast();
+    public static LinkedList<Integer> gigaRotate(LinkedList<Integer> l) {
+        LinkedList<Integer> list = new LinkedList<>();
+        ListIterator<Integer> iterator = l.listIterator(l.size());
+        while(iterator.hasPrevious()){
+            list.add(iterator.previous());
         }
+        return list;
     }
 }
